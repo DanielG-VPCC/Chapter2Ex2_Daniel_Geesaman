@@ -17,12 +17,15 @@ int main()
     int number1;
     int number2;
     int answer;
+    int answer2;
     cout << "Please enter a number"<<endl;
     cin >> number1;
     cout << "Please enter a second number"<<endl;
     cin >> number2;
     answer = number1 + number2;
+    answer2 = number1 - number2;
     cout << "The sum of " << number1 << " and " << number2 << " is:" << answer;
+    cout << "The difference of " << number1 << " and " << number2 << " is:" << answer2;
     return 0;
 
 }
