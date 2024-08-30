@@ -17,9 +17,9 @@ int main()
     int number1;
     int number2;
     int answer;
-    cout << "Please enter a number\n";
+    cout << "Please enter a number"<<endl;
     cin >> number1;
-    cout << "Please enter a second number\n";
+    cout << "Please enter a second number"<<endl;
     cin >> number2;
     answer = number1 + number2;
     cout << "The sum of " << number1 << " and " << number2 << " is:" << answer;
