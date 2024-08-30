@@ -24,7 +24,7 @@ int main()
     cin >> number2;
     answer = number1 + number2;
     answer2 = number1 - number2;
-    cout << "The sum of " << number1 << " and " << number2 << " is:" << answer;
+    cout << "The sum of " << number1 << " and " << number2 << " is:" << answer << endl;
     cout << "The difference of " << number1 << " and " << number2 << " is:" << answer2;
     return 0;
 
